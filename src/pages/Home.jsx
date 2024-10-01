@@ -3,7 +3,12 @@
 export default function Home(){
     console.log('Home component is rendering');
     return (
-        // <h1 className="text-lg">Lorem<span className="text-red-600">Ipsum</span></h1>
-        <h1>ejnowjefewfw</h1>
+        // 
+        <div className="container h-screen pl-20">
+            <div className="flex flex-col mx-auto">
+                <h1 className="text-6xl mt-32 ">Welcome to my online portofolio</h1>
+                
+            </div>
+        </div>
     )
 }
